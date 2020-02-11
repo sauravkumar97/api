@@ -10,6 +10,6 @@ export class PhotosService {
     private http: HttpClient
   ) { }
   getAlbums(){
-    return this.http.get('https://jsonplaceholder.typicode.com/albums');
+    return this.http.get('https://jsonplaceholder.typicode.com/albums')
   }
 }
